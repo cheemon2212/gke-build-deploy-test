@@ -1,0 +1,8 @@
+bases:
+- ../../../kubernetes-prod
+
+resources:
+- webserver/dep.yaml
+
+#patchesStrategicMerge:
+#- webserver/webserver-service-int.yml

@@ -1,0 +1,11 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+  #annotations:
+    #kubernetes.io/ingress.global-static-ip-name: test0626
+    #networking.gke.io/managed-certificates: test0626
+spec:
+  backend:
+    serviceName: svc
+    servicePort: 80

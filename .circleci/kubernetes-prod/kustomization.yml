@@ -1,0 +1,3 @@
+resources:
+- webserver/svc.yaml
+- webserver/ingress.yaml
